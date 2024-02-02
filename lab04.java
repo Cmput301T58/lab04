@@ -4,11 +4,14 @@ public abstract class Shape {
     protected int y;
     protected String color = "blue";
 
+
+
     // Constructor to initialize the position of the shape
     public Shape(int x, int y, String color) {
         this.x = x;
         this.y = y;
         this.color = color;
+
     }
 
     // Abstract methods that subclasses must implement
