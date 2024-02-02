@@ -8,7 +8,7 @@ public abstract class Shape {
     public Shape(int x, int y, String color) {
         this.x = x;
         this.y = y;
-        this.color = color
+        this.color = color;
     }
 
     // Abstract methods that subclasses must implement
