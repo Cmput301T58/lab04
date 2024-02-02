@@ -9,6 +9,7 @@ public abstract class Shape {
         this.x = x;
         this.y = y;
         this.color = color;
+
     }
 
     // Abstract methods that subclasses must implement
